@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='estilos.css') }}">
+</head>
+<body>
+    <form method="POST">
+        <input type="text" name="resultado" value="{{ resultado }}" readonly><br><br>
+        <input type="hidden" name="valor1" value="{{ valor1 }}">
+        <input type="hidden" name="operacion" value="{{ operacion }}">
+
+        <div>
+            <button type="submit" name="n1">1</button>
+            <button type="submit" name="n2">2</button>
+            <button type="submit" name="n3">3</button>
+        </div>
+        <div>
+            <button type="submit" name="n4">4</button>
+            <button type="submit" name="n5">5</button>
+            <button type="submit" name="n6">6</button>
+        </div>
+        <div>
+            <button type="submit" name="n7">7</button>
+            <button type="submit" name="n8">8</button>
+            <button type="submit" name="n9">9</button>
+        </div>
+        <div>
+            <button type="submit" name="nmas">+</button>
+            <button type="submit" name="nmenos">-</button>
+            <button type="submit" name="nigual">=</button>
+            <button type="submit" name="nclear">C</button>
+        </div>
+        <div>
+            <button type="submit" name="nmulti">*</button>
+            <button type="submit" name="ndividir">%</button>
+            <button type="submit" name="nraiz">√</button>
+            <button type="submit" name="npotencia">^</button>
+        </div>
+    </form>
+</body>
+</html>

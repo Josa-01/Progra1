@@ -1,0 +1,69 @@
+/* estilos.css */
+body {
+    background-image: url("https://media.istockphoto.com/id/1419844586/vector/stem-blue-horizontal-frame-vector-education-bright-illustration.jpg?s=612x612&w=0&k=20&c=-A1eYLYulujNsiM26lkVy7qMT_Hp82N5EtKHSFRmigk=");
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 200px;
+}
+
+form {
+    display: inline-block;
+    background-color: #19d7e8;
+    padding: 30px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"] {
+    width: 250px;
+    padding: 15px;
+    font-size: 24px;
+    text-align: right;
+    margin-bottom: 20px;
+    background-color: #e0f7fa;
+    border: 2px solid #90caf9;
+    border-radius: 5px;
+    color: #333;
+}
+
+button {
+    width: 60px;
+    height: 60px;
+    font-size: 22px;
+    margin: 5px;
+    border: none;
+    border-radius: 8px;
+    background-color: #eceff1;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: #cfd8dc;
+}
+
+/* Botones de operaciones especiales */
+button[name="nmas"],
+button[name="nigual"]
+button[name="nmenos"] {
+    background-color: #81c784;
+    color: rgb(29, 237, 81);
+}
+
+button[name="nmas"]:hover,
+button[name="nigual"]:hover {
+    background-color: #66bb6a;
+}
+
+button[name="nclear"] {
+    background-color: #ef9a9a;
+    color: white;
+}
+
+button[name="nclear"]:hover {
+    background-color: #e57373;
+}
+button[name="nmenos"]:hover {
+    background-color: #73bde5;
+}
