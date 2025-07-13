@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block content %}
+
+<h2>Registro de Personas y Vehículos</h2>
+
+{% if mensaje %}
+<div class="alert alert-info">
+  {{ mensaje }}
+</div>
+{% endif %}
+
+<p><strong>Espacios disponibles:</strong> {{ disponibles }} de 10</p>
+
+<form method="post">
+    <h4>Datos de la Persona</h4>
+    <input class="form-control mb-2" name="cedula" placeholder="Cédula" required>
+    <input class="form-control mb-2" name="nombre" placeholder="Nombre completo" required>
+    <input class="form-control mb-2" name="telefono" placeholder="Teléfono">
+    <input class="form-control mb-2" name="direccion" placeholder="Dirección exacta">
+
+    <h4>Datos del Vehículo</h4>
+    <input class="form-control mb-2" name="placa" placeholder="Placa del carro" required>
+    <input class="form-control mb-2" name="marca" placeholder="Marca (Toyota, etc)">
+    <input class="form-control mb-2" name="modelo" placeholder="Modelo del vehículo">
+
+    <button class="btn btn-success">Registrar</button>
+</form>
+
+{% endblock %}
