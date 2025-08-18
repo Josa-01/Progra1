@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ movie.title }}</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <header class="site-header">
+    <h1>🎟️ Detalles de la película</h1>
+    <nav>
+      <a href="{{ url_for('index') }}">Inicio</a>
+    </nav>
+  </header>
+
+  <main class="container detail">
+    <div class="detail-media">
+      {% if movie.get_full_poster_url() %}
+        <img src="{{ movie.get_full_poster_url() }}" alt="Póster de {{ movie.title }}">
+      {% else %}
+        <div class="poster-fallback big">Sin póster</div>
+      {% endif %}
+    </div>
+
+    <div class="detail-info">
+      <h2>{{ movie.title }}</h2>
+      <p class="movie-meta">
+        Año: {{ movie.get_release_year() }} · ★ {{ movie.vote_average or "N/D" }}
+      </p>
+
+      {% if movie.genres and movie.genres|length > 0 %}
+        <p><strong>Géneros:</strong>
+          {% for g in movie.genres %}
+            {{ g.name }}{% if not loop.last %}, {% endif %}
+          {% endfor %}
+        </p>
+      {% endif %}
+
+      {% if movie.overview %}
+        <p><strong>Sinopsis:</strong> {{ movie.overview }}</p>
+      {% else %}
+        <p><strong>Sinopsis:</strong> No disponible.</p>
+      {% endif %}
+
+      {# Se mostrará solo si algún día agregas 'cast' al objeto movie #}
+      {% if movie.cast %}
+        <p><strong>Elenco principal:</strong>
+          {% for person in movie.cast[:5] %}
+            {{ person.name }}{% if not loop.last %}, {% endif %}
+          {% endfor %}
+        </p>
+      {% endif %}
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <small>Hecho con Flask + TMDB (proyecto estudiante)</small>
+  </footer>
+</body>
+</html>

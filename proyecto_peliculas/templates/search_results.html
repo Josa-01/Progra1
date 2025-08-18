@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Resultados – {{ query }}</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <header class="site-header">
+    <h1>🔎 Resultados de búsqueda</h1>
+    <nav>
+      <a href="{{ url_for('index') }}">Inicio</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="search-box">
+      <form action="{{ url_for('search') }}" method="get" class="search-form">
+        <input type="text" name="q" placeholder="Buscar película..." value="{{ query or '' }}" required>
+        <button type="submit">Buscar</button>
+      </form>
+    </section>
+
+    {% if movies and movies|length > 0 %}
+      <h2 class="section-title">Resultados para: “{{ query }}”</h2>
+      <section class="grid">
+        {% for movie in movies %}
+          <article class="card">
+            <a href="{{ url_for('movie_details', movie_id=movie.id) }}">
+              {% if movie.get_full_poster_url() %}
+                <img src="{{ movie.get_full_poster_url() }}" alt="Póster de {{ movie.title }}">
+              {% else %}
+                <div class="poster-fallback">Sin póster</div>
+              {% endif %}
+            </a>
+            <div class="card-body">
+              <h3 class="movie-title">
+                <a href="{{ url_for('movie_details', movie_id=movie.id) }}">
+                  {{ movie.title }}
+                </a>
+              </h3>
+              <p class="movie-meta">
+                Año: {{ movie.get_release_year() }} · ★ {{ movie.vote_average or "N/D" }}
+              </p>
+            </div>
+          </article>
+        {% endfor %}
+      </section>
+    {% else %}
+      <p class="empty-msg">No se encontraron resultados para “{{ query }}”.</p>
+    {% endif %}
+  </main>
+
+  <footer class="site-footer">
+    <small>Hecho con Flask + TMDB (proyecto estudiante)</small>
+  </footer>
+</body>
+</html>
