@@ -1,0 +1,228 @@
+{
+  "estudiantes": [
+    {
+      "nombre": "J0S3 ANT0N10",
+      "apellido": "ACUÑ@ FERN@NDEZ",
+      "bd": "examen2",
+      "consecutivo": 1001,
+      "mision": "Realiza una operación matemática con el consecutivo para obtener un valor entre 1 y 50 y busca en la base de datos la información de ese registro."
+    },
+    {
+      "nombre": "K1TZ3LL @L3X@NDR@",
+      "apellido": " @LV@R3Z C@STR0 ",
+      "bd": "examen2",
+      "consecutivo": 1002,
+      "mision": "Realiza una operación matemática con el consecutivo para obtener un valor entre 1 y 50 y busca en la base de datos la información de ese registro."
+    },
+    {
+      "nombre": "C@T@L1N@",
+      "apellido": " ARTAVIA BRENES#",
+      "bd": "examen2",
+      "consecutivo": 1003,
+      "mision": "Realiza una operación matemática con el consecutivo para obtener un valor entre 1 y 50 y busca en la base de datos la información de ese registro."
+    },
+    {
+      "nombre": "M@R1@M FR@NC1NY",
+      "apellido": "BL@NC0 CH1NCH1LL@",
+      "bd": "examen2",
+      "consecutivo": 1004,
+      "mision": "Realiza una operación matemática con el consecutivo para obtener un valor entre 1 y 50 y busca en la base de datos la información de ese registro."
+    },
+    {
+      "nombre": "3L1C10",
+      "apellido": "B0G@NT3S V@RG@S",
+      "bd": "examen2",
+      "consecutivo": 1005,
+      "mision": "Realiza una operación matemática con el consecutivo para obtener un valor entre 1 y 50 y busca en la base de datos la información de ese registro."
+    },
+    {
+      "nombre": " Y31K3L @DR1@N",
+      "apellido": "C@RM0N@ C@STR0",
+      "bd": "examen2",
+      "consecutivo": 1006,
+      "mision": "Realiza una operación matemática con el consecutivo para obtener un valor entre 1 y 50 y busca en la base de datos la información de ese registro."
+    },
+    {
+      "nombre": " @SDRUB@L GU1LL3RM0",
+      "apellido": "CH@V3S ULL0@",
+      "bd": "examen2",
+      "consecutivo": 1007,
+      "mision": "Realiza una operación matemática con el consecutivo para obtener un valor entre 1 y 50 y busca en la base de datos la información de ese registro."
+    },
+    {
+      "nombre": "J3YS0N J0S3",
+      "apellido": "CH@V3Z P1N3D@",
+      "bd": "examen2",
+      "consecutivo": 1008,
+      "mision": "Realiza una operación matemática con el consecutivo para obtener un valor entre 1 y 50 y busca en la base de datos la información de ese registro."
+    },
+    {
+      "nombre": " @NDR3@ F3RN@ND@ ",
+      "apellido": "C0RD0B@ S3V1LL@",
+      "bd": "examen2",
+      "consecutivo": 1009,
+      "mision": "Realiza una operación matemática con el consecutivo para obtener un valor entre 1 y 50 y busca en la base de datos la información de ese registro."
+    },
+    {
+      "nombre": "D@N13L@ C0R1N@",
+      "apellido": "DU@RT3 M1R@ND@",
+      "bd": "examen2",
+      "consecutivo": 1010,
+      "mision": "Realiza una operación matemática con el consecutivo para obtener un valor entre 1 y 50 y busca en la base de datos la información de ese registro."
+    },
+    {
+      "nombre": "3MM@ G@BR13L@",
+      "apellido": "F3RN@ND3Z W@TK1NS",
+      "bd": "examen2",
+      "consecutivo": 1011,
+      "mision": "Realiza una operación matemática con el consecutivo para obtener un valor entre 1 y 50 y busca en la base de datos la información de ese registro."
+    },
+    {
+      "nombre": "JUL10 C3S@R",
+      "apellido": "G@RC1@ S3RR@N0",
+      "bd": "examen2",
+      "consecutivo": 1012,
+      "mision": "Realiza una operación matemática con el consecutivo para obtener un valor entre 1 y 50 y busca en la base de datos la información de ese registro."
+    },
+    {
+      "nombre": "C0R1N@ Y@HUZ1RY",
+      "apellido": "L0@1Z@ FU3NT3S",
+      "bd": "examen2",
+      "consecutivo": 1013,
+      "mision": "Realiza una operación matemática con el consecutivo para obtener un valor entre 1 y 50 y busca en la base de datos la información de ese registro."
+    },
+    {
+      "nombre": " @NDR3S ",
+      "apellido": "M0NT@N@R0 ZUÑ1G@",
+      "bd": "examen2",
+      "consecutivo": 1014,
+      "mision": "Realiza una operación matemática con el consecutivo para obtener un valor entre 1 y 50 y busca en la base de datos la información de ese registro."
+    },
+    {
+      "nombre": "M@B3R1CK R@NS3L",
+      "apellido": "M0R@L3S V1ND@S",
+      "bd": "examen2",
+      "consecutivo": 1015,
+      "mision": "Realiza una operación matemática con el consecutivo para obtener un valor entre 1 y 50 y busca en la base de datos la información de ese registro."
+    },
+    {
+      "nombre": "3M1LY S0F1@",
+      "apellido": "MUR1LL0 3SP1N0Z@",
+      "bd": "examen2",
+      "consecutivo": 1016,
+      "mision": "Realiza una operación matemática con el consecutivo para obtener un valor entre 1 y 50 y busca en la base de datos la información de ese registro."
+    },
+    {
+      "nombre": " @SHL3Y 1R1N@ ",
+      "apellido": "ÑUÑ3Z C3SP3D3S",
+      "bd": "examen2",
+      "consecutivo": 1017,
+      "mision": "Realiza una operación matemática con el consecutivo para obtener un valor entre 1 y 50 y busca en la base de datos la información de ese registro."
+    },
+    {
+      "nombre": "N3LS0N 3V@NS",
+      "apellido": "0L1V3R LL3R3N@",
+      "bd": "examen2",
+      "consecutivo": 1018,
+      "mision": "Realiza una operación matemática con el consecutivo para obtener un valor entre 1 y 50 y busca en la base de datos la información de ese registro."
+    },
+    {
+      "nombre": "S@MU3L J3SUS",
+      "apellido": "0V13D0 J1M3N3Z",
+      "bd": "examen2",
+      "consecutivo": 1019,
+      "mision": "Realiza una operación matemática con el consecutivo para obtener un valor entre 1 y 50 y busca en la base de datos la información de ese registro."
+    },
+    {
+      "nombre": " M@R1@ C3L3ST3",
+      "apellido": "P@Z B@RB0Z@",
+      "bd": "examen2",
+      "consecutivo": 1020,
+      "mision": "Realiza una operación matemática con el consecutivo para obtener un valor entre 1 y 50 y busca en la base de datos la información de ese registro."
+    },
+    {
+      "nombre": "J0S3 G3R@RD0",
+      "apellido": "P3R3R@ G0M3Z",
+      "bd": "examen2",
+      "consecutivo": 1021,
+      "mision": "Realiza una operación matemática con el consecutivo para obtener un valor entre 1 y 50 y busca en la base de datos la información de ese registro."
+    },
+    {
+      "nombre": "3V3L1NG @N13LK@",
+      "apellido": "P3R3Z G@RC1@",
+      "bd": "examen2",
+      "consecutivo": 1022,
+      "mision": "Realiza una operación matemática con el consecutivo para obtener un valor entre 1 y 50 y busca en la base de datos la información de ese registro."
+    },
+    {
+      "nombre": "Josafath Antonio",
+      "apellido": "Prado Fallas",
+      "bd": "examen2",
+      "consecutivo": 1023,
+      "mision": "Realiza una operación matemática con el consecutivo para obtener un valor entre 1 y 50 y busca en la base de datos la información de ese registro."
+    },
+    {
+      "nombre": " J0ST1N D@G0B3RT0",
+      "apellido": "QU1R0S 0B@ND0 ",
+      "bd": "examen2",
+      "consecutivo": 1024,
+      "mision": "Realiza una operación matemática con el consecutivo para obtener un valor entre 1 y 50 y busca en la base de datos la información de ese registro."
+    },
+    {
+      "nombre": "P@UL@ N03L1@",
+      "apellido": "R@M1R3Z P0V3D@",
+      "bd": "examen2",
+      "consecutivo": 1025,
+      "mision": "Realiza una operación matemática con el consecutivo para obtener un valor entre 1 y 50 y busca en la base de datos la información de ese registro."
+    },
+    {
+      "nombre": "J0SU3 D@V1D",
+      "apellido": "R0DR1GU3Z R@M1R3Z",
+      "bd": "examen2",
+      "consecutivo": 1026,
+      "mision": "Realiza una operación matemática con el consecutivo para obtener un valor entre 1 y 50 y busca en la base de datos la información de ese registro."
+    },
+    {
+      "nombre": "3ST3B@N @LF0NS0",
+      "apellido": "S@L@S M@RT1N3Z",
+      "bd": "examen2",
+      "consecutivo": 1027,
+      "mision": "Realiza una operación matemática con el consecutivo para obtener un valor entre 1 y 50 y busca en la base de datos la información de ese registro."
+    },
+    {
+      "nombre": "3DG@R ST1V3N",
+      "apellido": "S0M@RR1B@ R0J@S",
+      "bd": "examen2",
+      "consecutivo": 1028,
+      "mision": "Realiza una operación matemática con el consecutivo para obtener un valor entre 1 y 50 y busca en la base de datos la información de ese registro."
+    },
+    {
+      "nombre": "DYL@N J0SU3",
+      "apellido": "V@RG@S S1B@J@",
+      "bd": "examen2",
+      "consecutivo": 1029,
+      "mision": "Realiza una operación matemática con el consecutivo para obtener un valor entre 1 y 50 y busca en la base de datos la información de ese registro."
+    },
+    {
+      "nombre": "J0SHU@",
+      "apellido": "V1LL3G@S M3D1N@",
+      "bd": "examen2",
+      "consecutivo": 1030,
+      "mision": "Realiza una operación matemática con el consecutivo para obtener un valor entre 1 y 50 y busca en la base de datos la información de ese registro."
+    },
+    {
+      "nombre": " @NTH0NY @NDR3Y",
+      "apellido": "ZUÑ1G@ C@ST1LL0 ",
+      "bd": "examen2",
+      "consecutivo": 1031,
+      "mision": "Realiza una operación matemática con el consecutivo para obtener un valor entre 1 y 50 y busca en la base de datos la información de ese registro."
+    },
+    {
+      "nombre": " @L3X@ND3R",
+      "apellido": "B3NJ@M1N CURL1NG",
+      "bd": "examen2",
+      "consecutivo": 1032,
+      "mision": "Realiza una operación matemática con el consecutivo para obtener un valor entre 1 y 50 y busca en la base de datos la información de ese registro."
+    }
+  ]
+}
